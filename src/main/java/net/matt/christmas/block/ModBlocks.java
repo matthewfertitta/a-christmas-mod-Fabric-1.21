@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.matt.christmas.Christmas;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -11,6 +12,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
@@ -24,7 +26,21 @@ public class ModBlocks {
             )
     );
 
-
+    /*
+    // how to add a block that drops experience
+    // UniformIntProvider.create(2,5) is 2-5 xp's
+    // translations, models, items and all that junk aren't implemented for this guy
+    public static final Block CANDY_CANE_ORE = registerBlock(
+            "peppermint_block",
+            new ExperienceDroppingBlock(
+                    UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create()
+                            .strength(3f)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.STONE)
+            )
+    );
+    */
 
 
     // registers the actual block as a whole

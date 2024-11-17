@@ -1,0 +1,20 @@
+{
+  "_comment": "the key is a list of items that point to pattern, each item denoted by a specific symbol",
+
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "christmas:candy_cane"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "christmas:peppermint_block"
+  }
+}

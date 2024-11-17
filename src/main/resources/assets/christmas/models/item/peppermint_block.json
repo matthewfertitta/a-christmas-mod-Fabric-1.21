@@ -1,0 +1,5 @@
+{
+  "_comment": "Normal 3D rending of blocks in inventory, what to use inside the inventory",
+
+  "parent": "christmas:block/peppermint_block"
+}

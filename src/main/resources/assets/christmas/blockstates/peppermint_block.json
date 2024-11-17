@@ -1,0 +1,9 @@
+{
+  "_comment": "since we only have 1 block-state the \"'s are empty and we only use 1 model, this is what model it takes in the world",
+
+  "variants": {
+    "": {
+      "model": "christmas:block/peppermint_block"
+    }
+  }
+}

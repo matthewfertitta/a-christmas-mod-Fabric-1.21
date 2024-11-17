@@ -2,6 +2,9 @@ package net.matt.christmas;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.matt.christmas.block.ModBlocks;
+import net.matt.christmas.item.ModItemGroups;
+import net.matt.christmas.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +14,10 @@ public class Christmas implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

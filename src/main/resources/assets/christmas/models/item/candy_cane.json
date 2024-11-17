@@ -1,0 +1,8 @@
+{
+  "_comment": "parent determines how the item is rendered, textures looks for the textures directory and looks for the candy_cane texture",
+
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "christmas:item/candy_cane"
+  }
+}

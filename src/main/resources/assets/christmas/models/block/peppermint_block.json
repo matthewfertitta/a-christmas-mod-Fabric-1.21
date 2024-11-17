@@ -1,0 +1,8 @@
+{
+  "_comment": "how the model looks like and what those texture are and where they go",
+
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "christmas:block/peppermint_block"
+  }
+}

@@ -2,6 +2,7 @@ package net.matt.christmas.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.matt.christmas.Christmas;
+import net.matt.christmas.block.custom.MagicBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -26,12 +27,22 @@ public class ModBlocks {
             )
     );
 
+    public static final Block MAGIC_BLOCK = registerBlock(
+            "magic_block",
+            new MagicBlock(
+            AbstractBlock.Settings.create()
+                    .strength(3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+            )
+    );
+
     /*
     // how to add a block that drops experience
     // UniformIntProvider.create(2,5) is 2-5 xp's
     // translations, models, items and all that junk aren't implemented for this guy
     public static final Block CANDY_CANE_ORE = registerBlock(
-            "peppermint_block",
+            "candy_cane_ore",
             new ExperienceDroppingBlock(
                     UniformIntProvider.create(2,5),
                     AbstractBlock.Settings.create()

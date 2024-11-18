@@ -2,6 +2,7 @@ package net.matt.christmas.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.matt.christmas.Christmas;
+import net.matt.christmas.item.custom.FrostSummonItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -13,6 +14,8 @@ public class ModItems {
     // items
     public static final Item CANDY_CANE = registerItem("candy_cane", new Item(new Item.Settings()));
     public static final Item PRESENT = registerItem("present", new Item(new Item.Settings()));
+
+    public static final Item FROST_SUMMON = registerItem("frost_summon", new FrostSummonItem(new Item.Settings().maxDamage(1)));
 
     // helper method to define items
     private static Item registerItem(String name, Item item)

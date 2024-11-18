@@ -1,8 +1,10 @@
 {
   "item.christmas.candy_cane": "Candy Cane",
   "item.christmas.present": "Present",
+  "item.christmas.frost_summon": "Frost Summon",
 
   "block.christmas.peppermint_block": "Block of Peppermint",
+  "block.christmas.magic_block": "Magic Block",
 
   "itemgroup.christmas.christmas_items": "Christmas Items"
 }

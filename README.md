@@ -1,4 +1,4 @@
-# A Chirstmas Minecraft Mod (1.21 Fabric)
+# A Christmas Minecraft Mod (1.21 Fabric)
 
 **CHRISTMAS!!!! WOOO YEAHHHHHHHH!!!!**  
 

@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.matt.christmas.block.ModBlocks;
 import net.matt.christmas.item.ModItemGroups;
 import net.matt.christmas.item.ModItems;
+import net.matt.christmas.util.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,6 +19,8 @@ public class Christmas implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModLootTableModifiers.modifyLootTables();
 
 	}
 }

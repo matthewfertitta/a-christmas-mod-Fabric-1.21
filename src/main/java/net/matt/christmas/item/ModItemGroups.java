@@ -21,9 +21,12 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.christmas.christmas_items"))
                     // this is where you add items to the tab
                     .entries((displayContext, entries) -> {
-                        //items
+                        // items
                         entries.add(ModItems.CANDY_CANE);
                         entries.add(ModItems.PRESENT);
+
+                        // food
+                        entries.add(ModItems.EGGNOG);
 
                         // special
                         entries.add(ModItems.FROST_SUMMON);

@@ -23,4 +23,6 @@ public class Christmas implements ModInitializer {
 		ModLootTableModifiers.modifyLootTables();
 
 	}
+
+
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "hot_cocoa",
+  "ingredient": {
+    "item": "christmas:cold_cocoa"
+  },
+  "result": {
+    "id": "christmas:hot_cocoa"
+  }
+}

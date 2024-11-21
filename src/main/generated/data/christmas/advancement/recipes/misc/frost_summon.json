@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_diamond": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_packed_ice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:packed_ice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_snow_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:snow_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "christmas:frost_summon"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_packed_ice",
+      "has_snow_block",
+      "has_diamond"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "christmas:frost_summon"
+    ]
+  }
+}

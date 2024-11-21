@@ -1,0 +1,6 @@
+// 1.21	2024-11-20T21:34:15.160042	A Christmas Mod/Tags for minecraft:block
+42332c49184e047166b2e0afc105509b261a6de9 data\minecraft\tags\block\walls.json
+399ffd13c0c9160168f159ef817d8c5f2cb4d5ee data\minecraft\tags\block\needs_iron_tool.json
+ec37d3fb4d95d85c321b158a96a254f2b6af2d7f data\minecraft\tags\block\mineable\pickaxe.json
+e6aea6c590b004fe18ee832f2623a934d6ce96bf data\minecraft\tags\block\fence_gates.json
+1a283de9a1f2023c0a4aa662aac91d1532b60a67 data\minecraft\tags\block\fences.json

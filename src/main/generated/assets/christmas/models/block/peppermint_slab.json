@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "christmas:block/peppermint_block",
+    "side": "christmas:block/peppermint_block",
+    "top": "christmas:block/peppermint_block"
+  }
+}

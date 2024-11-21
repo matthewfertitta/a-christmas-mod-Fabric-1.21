@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "christmas:block/peppermint_slab"
+    },
+    "type=double": {
+      "model": "christmas:block/peppermint_block"
+    },
+    "type=top": {
+      "model": "christmas:block/peppermint_slab_top"
+    }
+  }
+}

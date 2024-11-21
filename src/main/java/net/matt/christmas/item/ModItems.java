@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.matt.christmas.Christmas;
 import net.matt.christmas.item.custom.EggnogItem;
 import net.matt.christmas.item.custom.FrostSummonItem;
+import net.matt.christmas.item.custom.HotCocoaItem;
 import net.matt.christmas.item.custom.PresentItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -22,6 +23,8 @@ public class ModItems {
 
     // food
     public static final Item EGGNOG = registerItem("eggnog", new EggnogItem(new Item.Settings().food(ModFoodComponents.EGGNOG)));
+    public static final Item HOT_COCOA = registerItem("hot_cocoa", new HotCocoaItem(new Item.Settings().food(ModFoodComponents.HOT_COCOA)));
+    public static final Item COLD_COCOA = registerItem("cold_cocoa", new Item(new Item.Settings()));
 
     // helper method to define items
     private static Item registerItem(String name, Item item)

@@ -29,6 +29,19 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.PEPPERMINT_BLOCK);
 
+        addDrop(ModBlocks.PEPPERMINT_STAIRS);
+        addDrop(ModBlocks.PEPPERMINT_SLAB, slabDrops(ModBlocks.PEPPERMINT_SLAB));
+
+        addDrop(ModBlocks.PEPPERMINT_BUTTON);
+        addDrop(ModBlocks.PEPPERMINT_PRESSURE_PLATE);
+
+        addDrop(ModBlocks.PEPPERMINT_WALL);
+        addDrop(ModBlocks.PEPPERMINT_FENCE);
+        addDrop(ModBlocks.PEPPERMINT_FENCE_GATE);
+
+        addDrop(ModBlocks.PEPPERMINT_DOOR, doorDrops(ModBlocks.PEPPERMINT_DOOR));
+        addDrop(ModBlocks.PEPPERMINT_TRAPDOOR);
+
         // single drop
         //addDrop(ModBlocks.MAGIC_BLOCK, oreDrops(ModBlocks.MAGIC_BLOCK, ModItems.PRESENT));
         // multiple drops

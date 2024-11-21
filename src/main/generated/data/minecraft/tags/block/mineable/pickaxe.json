@@ -1,6 +1,16 @@
 {
   "values": [
     "christmas:magic_block",
-    "christmas:peppermint_block"
+    "christmas:peppermint_block",
+    "christmas:peppermint_block",
+    "christmas:peppermint_stairs",
+    "christmas:peppermint_slab",
+    "christmas:peppermint_button",
+    "christmas:peppermint_pressure_plate",
+    "christmas:peppermint_wall",
+    "christmas:peppermint_fence",
+    "christmas:peppermint_fence_gate",
+    "christmas:peppermint_door",
+    "christmas:peppermint_trapdoor"
   ]
 }

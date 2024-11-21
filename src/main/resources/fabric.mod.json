@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "christmas",
 	"version": "${version}",
-	"name": "Christmas",
+	"name": "A Christmas Mod",
 	"description": "christmas!!!!!!!!",
 	"authors": [
 		"Matthew"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/matthewfertitta/a-christmas-mod-Fabric-1.21"
 	},
 	"license": "MIT",
 	"icon": "assets/christmas/icon.png",

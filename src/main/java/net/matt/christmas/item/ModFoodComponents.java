@@ -14,4 +14,9 @@ public class ModFoodComponents {
                     0.15f)
             .build();
 
+    public static final FoodComponent HOT_COCOA = new FoodComponent.Builder()
+            .nutrition(4)
+            .saturationModifier(0.50f)
+            .build();
+
 }

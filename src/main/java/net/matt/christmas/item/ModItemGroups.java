@@ -27,13 +27,24 @@ public class ModItemGroups {
 
                         // food
                         entries.add(ModItems.EGGNOG);
+                        entries.add(ModItems.HOT_COCOA);
+                        entries.add(ModItems.COLD_COCOA);
 
                         // special
                         entries.add(ModItems.FROST_SUMMON);
 
                         //blocks
                         entries.add(ModBlocks.PEPPERMINT_BLOCK);
-                        entries.add(ModBlocks.MAGIC_BLOCK);
+                        entries.add(ModBlocks.PEPPERMINT_STAIRS);
+                        entries.add(ModBlocks.PEPPERMINT_SLAB);
+                        entries.add(ModBlocks.PEPPERMINT_BUTTON);
+                        entries.add(ModBlocks.PEPPERMINT_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PEPPERMINT_FENCE);
+                        entries.add(ModBlocks.PEPPERMINT_FENCE_GATE);
+                        entries.add(ModBlocks.PEPPERMINT_WALL);
+                        entries.add(ModBlocks.PEPPERMINT_DOOR);
+                        entries.add(ModBlocks.PEPPERMINT_TRAPDOOR);
+                        //entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
     public static void registerItemGroups()

@@ -1,11 +1,26 @@
 {
   "item.christmas.candy_cane": "Candy Cane",
   "item.christmas.present": "Present",
-  "item.christmas.frost_summon": "Frost Summon",
+  "item.christmas.frost_summon": "Mysterious Hunk of Ice..?",
 
   "item.christmas.eggnog": "Eggnog",
+  "item.christmas.hot_cocoa": "Hot Cocoa",
+  "item.christmas.cold_cocoa": "Cold Cocoa",
 
   "block.christmas.peppermint_block": "Block of Peppermint",
+  "block.christmas.peppermint_stairs": "Peppermint Stairs",
+  "block.christmas.peppermint_slab": "Peppermint Slab",
+
+  "block.christmas.peppermint_button": "Peppermint Button",
+  "block.christmas.peppermint_pressure_plate": "Peppermint Pressure Plate",
+
+  "block.christmas.peppermint_fence": "Peppermint Fence",
+  "block.christmas.peppermint_fence_gate": "Peppermint Fence Gate",
+  "block.christmas.peppermint_wall": "Peppermint Wall",
+
+  "block.christmas.peppermint_door": "Peppermint Door",
+  "block.christmas.peppermint_trapdoor": "Peppermint Trapdoor",
+
   "block.christmas.magic_block": "Magic Block",
 
   "itemgroup.christmas.christmas_items": "Christmas Items"

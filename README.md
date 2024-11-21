@@ -2,9 +2,11 @@
 
 **CHRISTMAS!!!! WOOO YEAHHHHHHHH!!!!**  
 
-- 🎁 **Presents**
-- 🥛 **Eggnog**
-- 🍭 **Candy Canes**
-- 🍬 **Peppermint Blocks**
+- 🎁 **Presents** Gifts!!!
+- 🥛 **Eggnog** Eggnog
+- 🍭 **Candy Canes** Non-Edible, Totally-Toxic & Very Sturdy
+- 🍬 **Peppermint Blocks** Made from Candy Canes
+- ❓ **Mysterious Hunk of Ice..?** What could it do?
+- ☕ **Hot Cocoa** Heated to a reasonable 2000K
 
-SPREAD CHRISTMAS CHEER!!!!!
+SPREAD CHRISTMAS CHEER!!!!!!!!!!
